@@ -20,5 +20,5 @@ def self.create_table
       )
     SQL
 
-    DB[:conn].execute(sql)
+    DB[:conn].execute(sql,name,grade)
   end
